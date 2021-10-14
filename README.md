@@ -1,0 +1,2 @@
+# web-scraping-to-download-.7z-files
+this function takes as input an url with a page of nested windows 7 files (.7z). each zipfile      is downloaded and save locally with the name of the href link. The function also takes a tag input reepresenting      the tag you want to search for in the html file. The default argument is set to 'a' for anchor because is the      most common. The function checks if the file is already in the system to avoid double downloads of the file.
